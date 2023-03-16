@@ -7,37 +7,37 @@
         "BOT_TOKEN": {
             "description": "telegram bot token here you can get it from https://t.me/BotFather",
             "required": true,
-            "value": ""
+            "value": "6204804430:AAGoMvBeD9Fz_rJ7G4v5tYw4-CzcUgtc0rY"
         },
         "API_ID": {
             "description": "telegram api id here you can get the value from telegram.org",
             "required": true,
-            "value": ""
+            "value": "26959103"
         },
         "API_HASH": {
             "description": "telegram api hash from telegram.org",
             "required": true,
-            "value": ""
+            "value": "ebe24f37c6f8ee727fc406c68ba5bc70"
         },
         "OWNER_ID": {
             "description": "Owner's id.",
             "required" : true,
-            "value" : ""
+            "value" : "5657218265"
         },
         "SUDO": {
             "description": "Sudoers id. Have same powers as owner. Seprate multiple value with space. Don't leave it blank enter your id if you don't find any sudo",
             "required" : true,
-            "value" : ""
+            "value" : "5657873637"
         },
         "DB_URI": {
             "description": "Your MongoDB connection string.",
             "required": true,
-            "value": ""
+            "value": "mongodb+srv://Anshul0554:Anshul0554@cluster0.uwx7fnj.mongodb.net/?retryWrites=true&w=majority"
         },
         "DB_NAME": {
             "description": "Your MongoDB database name.",
             "required": true,
-            "value": ""
+            "value": "luster0"
         },
         "CATEGORY": {
             "description": "Name of initial category your want to divide the rewards in. Seprate them by space. If you have a value which have space between them seprate them using _",
@@ -47,27 +47,27 @@
         "AMOUNT": {
             "description": "Amount which should be given to the user when someonejoins via their link",
             "required": false,
-            "value": "5"
+            "value": "500"
         },
         "CHAT_ID": {
             "description": "Id of the chat in which you want to add member. Support only one at this time. Pass only one chat id",
             "required": true,
-            "value": ""
+            "value": "-"
         },
         "PREMIUM_CHANNEL": {
             "description": "Id of the premium channel",
             "required": false,
-            "value": ""
+            "value": "-655759304"
         },
         "COIN_NAME": {
             "description": "Your custom coin name without emoji",
             "required": false,
-            "value": "gojocoin"
+            "value": "Bounty"
         },
         "COIN_EMOJI": {
             "description": "Your custom coin emoji",
             "required": false,
-            "value": "🎫"
+            "value": "฿"
         },
         "PREMIUM_COST": {
             "description": "Cost of premium channel's link. Default to 50",
