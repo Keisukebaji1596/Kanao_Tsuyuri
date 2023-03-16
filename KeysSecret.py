@@ -13,7 +13,7 @@ API_HASH = getenv("API_HASH", "ebe24f37c6f8ee727fc406c68ba5bc70")
 BOT_TOKEN = getenv("BOT_TOKEN", "6204804430:AAGoMvBeD9Fz_rJ7G4v5tYw4-CzcUgtc0rY")
 DB_URI = getenv("mongodb+srv://Anshul0554:Anshul0554@cluster0.uwx7fnj.mongodb.net/?retryWrites=true&w=majority")
 DB_NAME = getenv("luster0")
-OWNER = int(getenv())
+OWNER = int(getenv(5657873637))
 SUDO = list({int(i) for i in getenv(5657873637)})
 OWNER_ID = ["5657218265"]
 OWNER_ID.append(OWNER)               
